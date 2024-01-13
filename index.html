@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="./styles.css" rel="stylesheet"/>
+</head>
+<body>
+  <main id="overall-container">
+    <form id="form-container">
+      <header id="form-header">
+        <h2>Registration</h2>
+        <h3 id="numbers-box"><span id="changing-number">1</span>/3</h3>
+      </header>
+
+      <div class="inputs-casing">
+        <div>
+          <label>First Name</label>
+          <input type="text" />
+        </div>
+        <div>
+          <label>Last Name</label>
+          <input type="text" />
+        </div>
+      </div>
+
+      <div class="inputs-casing hidden-form">
+        <div>
+          <label>Email</label>
+          <input type="text" />
+        </div>
+        <div>
+          <label>Phone Number</label>
+          <input type="text" />
+        </div>
+      </div>
+
+      <div class="inputs-casing hidden-form">
+        <div>
+          <label>Password</label>
+          <input type="text" />
+        </div>
+        <div>
+          <label>Confirm Password</label>
+          <input type="text" />
+        </div>
+      </div>
+      
+      <div id="button-container" class="expand-button">
+        <button id="prev-button" type="button">Previous</button>
+        <button id="next-button" type="button">Next</button>
+      </div>
+    </form>
+  </main>
+
+  <script src="./main.js"></script>
+</body>
+</html>

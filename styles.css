@@ -1,0 +1,98 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  /* background-color: blueviolet; */
+  display: flex;
+  height: 100vh;
+}
+
+#overall-container{
+  background-color: aqua;
+  background-image: url(./pencil.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80vw;
+  height: 70vh;
+  margin: auto;
+
+  display: flex;
+  justify-content: end;
+  align-items: center;
+
+  padding: 45px 25px;
+  border-radius: 15px;
+}
+
+#form-container{
+  background-color: white;
+  width: 43%;
+  height: 100%;
+
+  padding: 55px 40px;
+
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 15px;
+}
+
+#form-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+#numbers-box{
+  color: red;
+}
+
+.inputs-casing{
+  /* background-color: blueviolet; */
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  margin: 40px 0;
+  padding: 25px 0;
+}
+
+.inputs-casing.hidden-form{
+  display: none;
+}
+
+.inputs-casing label{
+  display: block;
+  font-size: 18px;
+}
+
+.inputs-casing input{
+  height: 35px;
+  width: 100%;
+}
+
+#button-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+#next-button, #prev-button{
+  height: 40px;
+  border: none;
+  background-color: bisque;
+  font-size: 17px;
+  cursor: pointer;
+
+  width: 45%;
+}
+
+.expand-button #prev-button{
+  display: none;
+}
+
+.expand-button #next-button{
+  width: 100%;
+}
